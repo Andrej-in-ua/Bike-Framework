@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteRule ^css/(.*) css/$1 [L]
+RewriteRule ^img/(.*) img/$1 [L]
+RewriteRule ^js/(.*) js/$1 [L]
+
+RewriteCond $1 !(\.php|\.ico|.gif)
+RewriteRule ^(.*)$ index.php/$1 [L]

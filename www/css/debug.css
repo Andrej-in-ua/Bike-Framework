@@ -1,0 +1,10 @@
+#console{display:none;background:#FAFAFA;border:1px #333 dashed;padding:0.6em;width:500px;font-size:1em;position:fixed;overflow-y:auto;overflow:hidden;opacity:0.8}
+#console:hover{opacity:1}
+#console .left{margin:0 20px 0 0}
+#console .box-title{cursor:pointer;font:14px/20px Verdana, Geneva, sans-serif;color:#333;background:#FBFBFB;display:inline-block;border-radius:5px;border:1px solid #999;padding:2px 4px;float:left;margin:4px}
+#console .box{border:1px #EEE solid;margin-bottom:1em;clear:both;background:#FFF;overflow:auto;max-height:250px}
+#console .box div{line-height:1.5em;font-size:0.85em;padding:0.7em}
+#console .box div:nth-child(even){background:#FBFBFB}
+#console .box div:nth-child(odd){background:#FFF}
+#console .box-title:hover,
+#console .box div:hover{background:#EEF4FB !important}

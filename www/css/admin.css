@@ -1,0 +1,31 @@
+/**
+ * Default CSS styles by Bike-Framework
+ * ------------------------------------
+ * Control panel
+ * - Main menu
+ * - Files menu
+ * - Forms
+ **/
+
+/* Main menu */
+.admin_main_menu li > span{display: block;border-bottom: 1px solid silver;clear:both;font-weight:bold;font-size:120%;margin-bottom:15px}
+.admin_main_menu a{text-decoration: none; color: #036;}
+.admin_main_menu li ul li a{margin: 0px 0px 20px 1%;padding: 6px;float: left;width: 46%;vertical-align: middle}
+.admin_main_menu li ul li a:hover{background-color: #F4F4F4}
+.admin_main_menu li ul li img{display: block; float: left; margin-right: 6px;}
+.admin_main_menu li ul li span{display:block; color: #333; font-size: 80%;}
+
+/* Files menu */
+ul.files{border-top: 1px solid silver;padding: 8px;margin-top: 10px;}
+ul.files li {display: inline-block;}
+ul.files li span{padding: 6px 8px; display: block; border-radius: 5px;}
+ul.files li span:hover{background-color: #F4F4F4; cursor: pointer;}
+
+ul.files li span div.delete-icon {display: none;}
+
+ul.files li span.file_active {background-color: #F1F4FB; cursor: default;}
+ul.files li span.file_active div.delete-icon { opacity:.4; margin-left: 8px; cursor: pointer; display: inline-block; }
+ul.files li span.file_active div.delete-icon:hover {opacity:1;}
+
+/* Forms */
+#config textarea{width: 100%; height: 300px;} 
